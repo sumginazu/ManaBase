@@ -1,0 +1,13 @@
+.card-list,
+.card-item {
+  display: inline-block;
+  text-align: center;
+}
+
+.card-item {
+  width: 25vw;
+}
+
+.card-face-flip {
+  position: absolute;
+}

@@ -1,0 +1,24 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+manabase/node_modules
+manabase_server/node_modules
+manabase/.pnp
+manabase/.pnp.js
+
+# testing
+manabase/coverage
+
+# production
+manabase/build
+
+# misc
+manabase/.DS_Store
+manabase/.env.local
+manabase/.env.development.local
+manabase/.env.test.local
+manabase/.env.production.local
+
+manabase/npm-debug.log*
+manabase/yarn-debug.log*
+manabase/yarn-error.log*

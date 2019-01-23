@@ -1,3 +1,5 @@
+const mysql = require("mysql");
+
 module.exports = {
   index: function(req, res) {
     console.log("Request for collection received");

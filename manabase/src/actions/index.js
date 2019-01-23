@@ -6,7 +6,11 @@ export const FLIP_CARD = "flip_card";
 export const FETCH_COLLECTION = "fetch_collection";
 
 const SCRYFALL_URL = "https://api.scryfall.com";
-const SERVER_URL = "http://localhost:8000";
+// AWS Server URL: http://manabasebeanstalk-env.hqbrvuurp5.us-west-1.elasticbeanstalk.com
+// Local Server URL: localhost:8000
+const SERVER_URL =
+  "http://manabasebeanstalk-env.hqbrvuurp5.us-west-1.elasticbeanstalk.com";
+
 const sampleCardSFId = "937dbc51-b589-4237-9fce-ea5c757f7c48";
 
 export function searchCard(term) {
